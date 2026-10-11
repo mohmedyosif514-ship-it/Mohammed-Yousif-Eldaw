@@ -1,41 +1,82 @@
-<!DOCTYPE HTML>
-<html lang="ar">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>الملف الشخصي للسي في</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Mohammad Yousif Eldaw</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- عنوان الصفحة الرئيسية -->
-    <h1>بطاقة التعريف الشخصية</h1>
+    <div class="cv-container">
+        <!-- Header: Personal Information & Profile Picture -->
+        <header class="cv-header">
+            <div class="header-text">
+                <h1>Mohammad Yousif Eldaw</h1>
+                <p class="subtitle">Student of Informatics Engineering</p>
+                <div class="student-info">
+                    <p><strong>NIM:</strong> 25534081</p>
+                    <p><strong>Semester:</strong> 3</p>
+                    <p><strong>Class:</strong> D</p>
+                    <p><strong>Email:</strong> mohammad.yousif514@email.com</p>
+                    <p><strong>WhatsApp:</strong> +249 112422119 </p>
+                </div>
+            </div>
+            <div class="header-img">
+                <!-- Place your photo in the same folder and name it foto.jpg -->
+                <img src="foto.jpg" alt="Mohammad Yousif Eldaw">
+            </div>
+        </header>
 
-    <!-- الصورة الجامعية -->
-    <!-- قم بتغيير my_photo.jpg باسم ملف صورتك الموجود في نفس المجلد -->
-    <img src="foto.jpg" alt="الصلورة الجامعية" width="150" height="180">
+        <hr>
 
-    <hr>
+        <!-- About / Profile -->
+        <section class="cv-section">
+            <h2>Profile</h2>
+            <p>I am an enthusiastic and motivated Informatics Engineering student currently in my 3rd semester. Passionate about web development, software engineering, and learning modern programming technologies to solve real-world problems.</p>
+        </section>
 
-    <!-- البيانات الشخصية والجامعية -->
-    <h2>المعلومات الشخصية</h2>
-    <p><strong>Nama:</strong> [Moahmmed Yousif Eldaw]</p>
-    <p><strong>Fukltas:</strong> [Teknik Informatika]</p>
-    <p><strong>Kampus:</strong> [Univursty Muhammadiyah Ponorogo]</p>
-    <p><strong> NIM:</strong> [25534081]<p>
-    <p><strong>السنة الدراسية:</strong> [3]<p>
+        <!-- Education -->
+        <section class="cv-section">
+            <h2>Education</h2>
+            <div class="item">
+                <h3>Bachelor of Informatics Engineering</h3>
+                <p>Class D | Semester 3</p>
+            </div>
+        </section>
 
-    <hr>
+        <!-- Skills -->
+        <section class="cv-section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git & GitHub</li>
+                <li>Problem Solving</li>
+                <li>Teamwork & Communication</li>
+            </ul>
+        </section>
 
-    <!-- نبذة قصيرة -->
-    <h2>نبذة عني</h2>
-    <p>أنا طالب أدرس برمجة الويب، وهذا أول تطبيق عملي لي في إنشاء صفحات HTML.</p>
+        <!-- Projects -->
+        <section class="cv-section">
+            <h2>Projects</h2>
+            <div class="item">
+                <h3>Personal CV Website</h3>
+                <p>A responsive curriculum vitae web page created using HTML and CSS to display identity, education, skills, and projects.</p>
+            </div>
+        </section>
 
-    <!-- المهارات أو المواد -->
-    <h2>المواد التي أدرسها</h2>
-    <ul>
-        <li>برمجة الويب (Web Programming)</li>
-        <li>قواعد البيانات (Databases)</li>
-        <li>هياكل البيانات (Data Structures)</li>
-    </ul>
+        <!-- Languages -->
+        <section class="cv-section">
+            <h2>Languages</h2>
+            <ul class="skills-list">
+                <li>Arabic (Native)</li>
+                <li>English (Intermediate)</li>
+                <li>Indonesian (Basic / Learning)</li>
+            </ul>
+        </section>
+
+    </div>
 
 </body>
 </html>
